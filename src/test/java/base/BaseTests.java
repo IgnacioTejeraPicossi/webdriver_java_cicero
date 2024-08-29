@@ -29,6 +29,7 @@ public class BaseTests {
 
     @BeforeMethod
     public void goHome(){
+        //driver.get("http://localhost:3000/no");
         driver.get("https://the-internet.herokuapp.com/");
         homePage = new HomePage(driver);
     }
